@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 25px;
+}
+
+.active {
+    background-color: #D8A203;
+    color: white;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    padding: 50px;
+    padding-left: 70px;
+}
+
+header .logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    left: 20px;
+    background-color: #D8A203;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header a {
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+
+header a:hover {
+    color: white;
+    background-color: #D8A203;
+    transition: 0.2s;
+
+}

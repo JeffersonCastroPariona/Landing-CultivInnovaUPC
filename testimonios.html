@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Landing Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="inicio.css">
+
+    <style>
+        /*estillos para el testimonio*/
+        .testimonio{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            position: relative;
+            min-height: 100px;
+        }
+
+        .testimonio .imagen{
+            width: 80px;
+            height: 80px;
+            background-color: #dedede;
+            background: url(perfil-de-usuario.png);
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            position: absolute;
+            top: -40px;
+            left: -40px;
+        }
+
+        .testimonio .nombre{
+            margin-bottom: 10px;
+            position: absolute;
+            top: -15px;
+            left: 55px;
+        }
+
+        .testimonio .testimonio-text{
+            font-size: 20px;
+            padding: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            P
+        </div>
+        <a href="inicio.html">Inicio</a>
+        <a href="sobre_nosotros.html">Sobre nosotros</a>
+        <a href="testimonios.html"class="active">Testimonios</a>
+        <a href="contacto.html">Contacto</a>
+    </header>
+
+    <div class="left">
+        <div class="testimonio">
+            <div class="imagen"></div>
+            <div class="nombre">@Nombre 1</div>
+            <div class="testimonio-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit</div>
+        </div>
+
+        <div class="testimonio">
+            <div class="imagen"></div>
+            <div class="nombre">@Nombre 2</div>
+            <div class="testimonio-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit</div>
+        </div>
+
+        <div class="testimonio">
+            <div class="imagen"></div>
+            <div class="nombre">@Nombre 3</div>
+            <div class="testimonio-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit</div>
+        </div>
+        
+    </div>
+    <div class="right">
+        <div class="man-image"></div>
+        <a href="iniciar_sesion.html">Iniciar sesión</a>
+        <a href="registrate.html">Registrate</a>
+    </div>
+</body>
+</html>

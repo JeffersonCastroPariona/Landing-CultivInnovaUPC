@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Landing Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            P
+        </div>
+        <a href="inicio.html" class="active">Inicio</a>
+        <a href="sobre_nosotros.html">Sobre nosotros</a>
+        <a href="testimonios.html">Testimonios</a>
+        <a href="contacto.html">Contacto</a>
+    </header>
+
+    <div class="total">
+        <div style="display: flex; justify-content: center; margin: auto; align-items: center; background-color: #f9f9f9; border-radius: 10px; padding: 5px 30px; height: 700px;">
+        <div class="left" style="padding: 0;">
+            <!-- Registro, nombres, apellidos, email, contraseña repetir contraseña -->
+            <form action="registro.php" method="POST" style="border:none">
+                <h1>Registrate</h1>
+                <input type="text" name="nombres" placeholder="Nombres" required>
+                <input type="text" name="apellidos" placeholder="Apellidos" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="contrasena" placeholder="Contraseña" required>
+                <input type="password" name="contrasena2" placeholder="Repetir contraseña" required>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+        <div class="right"style="padding: 0;">
+            <div class="foto">
+            </div>
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>
