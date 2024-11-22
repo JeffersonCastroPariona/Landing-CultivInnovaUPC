@@ -5,7 +5,7 @@
 }
 
 body {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .active {
@@ -50,4 +50,8 @@ header a:hover {
     background-color: #D8A203;
     transition: 0.2s;
 
+}
+
+.left p {
+    text-align: justify;
 }
